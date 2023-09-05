@@ -1,6 +1,8 @@
 # Electronics
 
-- [First Project](./1)
-- Second Project
-- Third Project
-- Fourth Project
+This document is prepared for Poulstar electronics class.
+
+- [interfacing led with micropython](./1)
+- [blink](./2)
+- [Temprature](./3)
+- [Oled](./4)
