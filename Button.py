@@ -4,8 +4,10 @@ from utime import sleep_ms
 button = Pin(0, Pin.IN, Pin.PULL_UP)
 led = Pin(2, Pin.OUT)
 State = 0
-if _name_ == "__main__":
+
+if __name__ == "__main__":
     while True:
+        
         print(button.value())
         if button.value() == 0:
             if State == 0:
